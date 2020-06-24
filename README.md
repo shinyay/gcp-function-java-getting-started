@@ -21,6 +21,7 @@ Java 11 works on Cloud Functions.
 </dependency>
 ```
 
+### HTTP Function
 
 ## Features
 
