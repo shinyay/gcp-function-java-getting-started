@@ -2,7 +2,7 @@ package com.google.shinyay.entity;
 
 import java.util.Map;
 
-public class PibSubMessage {
+public class PubSubMessage {
 
     private String data;
     private Map<String, String> attributes;
