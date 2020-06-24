@@ -8,6 +8,7 @@ Java 11 works on Cloud Functions.
 ### Functions Framework for Java
 
 - [Functions Framework for Java](https://github.com/GoogleCloudPlatform/functions-framework-java/)
+- [Google Cloud Platform repository tools for Java® (shared-configuration)](https://github.com/GoogleCloudPlatform/java-repo-tools)
 
 #### Functions Framework Dependency
 
