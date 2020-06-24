@@ -47,7 +47,14 @@ public class HelloFunction implements HttpFunction {
 ```shell script
 $ ./mvnw clean package
 $ gcloud functions deploy <CLOUD_FUNCTION_NAME> --entry-point <FQN_FOR_ENTRY_CLASS> --runtime java11 --trigger-http --allow-unauthenticated
+```
 
+### Call Cloud Function
+
+#### Default Authentication 
+```shell script
+$ set token (gcloud auth print-identity-token)
+$ curl https://<YOUR_REGION-YOUR_PROJECT_ID>.cloudfunctions.net/<FUNCTION_NAME> -H "Authorization: bearer $token"
 ```
 ## Features
 
