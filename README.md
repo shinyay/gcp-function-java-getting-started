@@ -35,6 +35,12 @@ Java 11 works on Cloud Functions.
 ```
 ### HTTP Function
 
+```java
+public class HelloFunction implements HttpFunction {
+    @Override
+    public void service(HttpRequest httpRequest, HttpResponse httpResponse) throws Exception { }
+}
+```
 ## Features
 
 - feature:1
