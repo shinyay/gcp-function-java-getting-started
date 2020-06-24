@@ -41,6 +41,14 @@ public class HelloFunction implements HttpFunction {
     public void service(HttpRequest httpRequest, HttpResponse httpResponse) throws Exception { }
 }
 ```
+
+### Deployment to Cloud Functions
+
+```shell script
+$ ./mvnw clean package
+$ gcloud functions deploy <CLOUD_FUNCTION_NAME> --entry-point <FQN_FOR_ENTRY_CLASS> --runtime java11 --trigger-http --allow-unauthenticated
+
+```
 ## Features
 
 - feature:1
