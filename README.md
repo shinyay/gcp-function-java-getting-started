@@ -21,6 +21,18 @@ Java 11 works on Cloud Functions.
 </dependency>
 ```
 
+#### Specify Application Entry point
+
+```xml
+<plugin>
+    <groupId>com.google.cloud.functions</groupId>
+    <artifactId>function-maven-plugin</artifactId>
+    <version>0.9.3</version>
+    <configuration>
+        <functionTarget>com.google.shinyay.HelloFunction</functionTarget>
+    </configuration>
+</plugin>
+```
 ### HTTP Function
 
 ## Features
